@@ -1,0 +1,12 @@
+$TTL 86400
+@ IN SOA test.edu.cn. root.localhost. (
+2011091200 ; serial 
+3H ; refresh 
+1H ; retry 
+1W ; expire 
+0) ; minimum 
+@ IN NS dns
+www IN A 172.18.0.101
+dns IN A 172.18.0.101
+ftp IN A 172.18.0.101
+
